@@ -4,12 +4,14 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springmvc-001-hello" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-002-requestmapping" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-003-recieveparam" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springmvc-001-hello/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-002-requestmapping/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-003-recieveparam/pom.xml" />
       </list>
     </option>
   </component>
