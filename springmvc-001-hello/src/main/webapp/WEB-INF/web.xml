@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <!--声明，注册springmvc的核心对象Dispatcherservlet
+    <!--声明，注册springmvc的核心对象Dispatcherservlet 中央调度器
         需要在tomcat服务器启动后，创建Dispatcherservlet对象的实例？
         因为Dispatcherservlet在他的创建过程中，会同时创建springmvc容器对象，读取springmvc的配置文件，把这个配置文件中的对象都创建好，当用户发起请求时就可以直接使用对象了。
         servlet的初始化会执行init(）方法。 Dispatcherservlet在init()中{
@@ -17,7 +17,7 @@
     <servlet>
         <servlet-name>springmvc</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <!-- springmyc创建容器对象时，读取的配置文件默认是/WEB-INF/<servlet-name>-servlet.xml,如果没有定义会报错误：
+        <!-- springmvc创建容器对象时，读取的配置文件默认是/WEB-INF/<servlet-name>-servlet.xml,如果没有定义会报错误：
       Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/springmvc-servlet.xml]-->
         <!--自定义springmvc读取的配置文件的位置-->
         <init-param>

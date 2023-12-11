@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc-002-requestmapping" />
-        <module name="springmvc-001-hello" />
         <module name="springmvc-003-recieveparam" />
+        <module name="springmvc-001-hello" />
+        <module name="springmvc-globalexception" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
