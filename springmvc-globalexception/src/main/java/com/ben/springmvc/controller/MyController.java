@@ -49,24 +49,24 @@ public class MyController {
         return "this is testError" + a;
     }
 
-    /**
-     * 处理其他异常
-     */
-    @ExceptionHandler(Exception.class)
-    @ResponseBody
-    public String exceptionHandler(Exception e) {
-        System.out.println(e);
-        return "this is a controller exception method!";
-    }
-
-    /**
-     * 处理ArithmeticException异常
-     */
-    @ExceptionHandler(value = ArithmeticException.class)
-    @ResponseBody
-    public String exceptionHandler(ArithmeticException e) {
-        System.out.println("发生ArithmeticException异常！原因是:" + e);
-        return "发生ArithmeticException异常";
-    }
+//    /**
+//     * 处理其他异常
+//     */
+//    @ExceptionHandler(Exception.class)
+//    @ResponseBody
+//    public String exceptionHandler(Exception e) {
+//        System.out.println(e);
+//        return "this is a controller exception method!";
+//    }
+//
+//    /**
+//     * 处理ArithmeticException异常
+//     */
+//    @ExceptionHandler(value = ArithmeticException.class)
+//    @ResponseBody
+//    public String exceptionHandler(ArithmeticException e) {
+//        System.out.println("发生ArithmeticException异常！原因是:" + e);
+//        return "发生ArithmeticException异常";
+//    }
 
 }

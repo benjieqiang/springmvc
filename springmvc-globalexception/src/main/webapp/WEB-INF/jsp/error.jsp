@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-  ${error}
+  ${msg}
 
 </body>
 </html>
